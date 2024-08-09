@@ -8,7 +8,7 @@ public class Cita {
     private String fecha;
     private String hora;
 
-    // Getters y Setters
+   
     public int getId() {
         return id;
     }

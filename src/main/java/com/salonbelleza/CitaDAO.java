@@ -12,7 +12,8 @@ public class CitaDAO {
     private static final String JDBC_PASSWORD = "";
 
     public void insertarCita(Cita cita) throws SQLException {
-        // Cargar el driver JDBC de MySQL
+        
+        
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
